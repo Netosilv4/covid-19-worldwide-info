@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import '../../styles/moreInfo.css';
 import { fetchTotalPop, fetchVaccineData } from '../../redux/actions';
@@ -7,14 +7,23 @@ import Vaccines from './Vaccines';
 import PieCharts from './PieChart';
 
 function MoreInfo({ data, fetchVaccines, fetchPop }) {
+  const [render, setRender] = useState(false);
   useEffect(() => {
     if (data.pickedCountryLoaded === true) {
       fetchVaccines(data.countryName);
       fetchPop(data.countryName);
     }
-  }, [data.pickedCountryLoaded, data.vaccineDataLoaded]);
+  }, [data.pickedCountryCases]);
 
-  if (data.vaccineDataLoaded && data.totalPopLoaded) {
+  useEffect(() => {
+    if (data.vaccineDataLoaded && data.totalPopLoaded) {
+      setRender(true);
+    } else {
+      setRender(false);
+    }
+  }, [data.vaccineDataLoaded, data.totalPopLoaded]);
+
+  if (render) {
     return (
       <section className="MoreInfo">
         <h1>

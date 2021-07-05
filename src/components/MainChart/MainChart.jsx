@@ -14,8 +14,8 @@ function MainChart({ countryName, chartData }) {
         top: 5, right: 20, bottom: 5, left: 0,
       }}
     >
-      <Line width="20px" type="monotone" dataKey="Mundo" stroke="#b53737" />
-      <Line type="monotone" dataKey={`${countryName}`} stroke="green" />
+      <Line strokeWidth="5px" type="monotone" dataKey="Mundo" stroke="#b53737" />
+      <Line strokeWidth="5px" type="monotone" dataKey={`${countryName}`} stroke="green" />
       <CartesianGrid stroke="gray" />
       <XAxis dataKey="day" />
       <YAxis />

@@ -32,7 +32,7 @@ function VaccineChart({ chartData }) {
           top: 0, right: 0, bottom: 0, left: 0,
         }}
       >
-        <Area width="20px" type="monotone" dataKey="Daily" stroke="#b53737" />
+        <Area width="20px" type="monotone" dataKey="Daily" strokeWidth="10px" stroke="#b53737" />
         <CartesianGrid stroke="gray" />
         <XAxis dataKey="day" />
         <YAxis />
