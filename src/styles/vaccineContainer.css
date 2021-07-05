@@ -1,9 +1,15 @@
+.Vaccines {
+  width: 90%;
+  margin: 20px auto;
+}
+
 .VaccineContainer {
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   display: flex;
   gap: 50px;
+  background-color: whitesmoke;
 }
 
 .VaccineContainer div, a, h3 {
