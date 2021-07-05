@@ -1,0 +1,31 @@
+.CountryForm {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  height: 75px;
+  width: 100%;
+  background-color: lightgray;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.CountryForm select {
+  padding: 10px;
+  width: 400px;
+}
+
+.CountryForm button {
+  padding: 10px 30px 10px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  border: none;
+}
+
+.CountryForm button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}

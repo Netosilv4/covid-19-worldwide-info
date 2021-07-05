@@ -1,0 +1,19 @@
+.Footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  letter-spacing: 1px;
+  gap: 5px;
+}
+
+.FooterLink {
+  color: lightgray;
+  padding-left: 5px;
+  text-decoration: underline;
+}

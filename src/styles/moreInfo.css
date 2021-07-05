@@ -1,0 +1,82 @@
+.MoreInfo {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.VaccinesWrapper {
+  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.VaccinesLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 20px;
+  height: 100%;
+  padding: 15px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.VaccinesRight {
+  box-shadow: 1px 1px 10px black;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: white;
+
+}
+
+.VaccinesRight h1 {
+  padding: 10px;
+}
+
+.PieChartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PieToolTip {
+  text-align: left;
+}
+
+.PieToolTip div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.PieColor1 {
+  width: 15px;
+  height: 15px;
+  background-color:#0088FE;
+}
+
+.PieColor2 {
+  width: 15px;
+  height: 15px;
+  background-color:#00C49F;
+}
+
+.VaccineChart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
