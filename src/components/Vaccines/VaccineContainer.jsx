@@ -6,7 +6,6 @@ function VaccineContainer({ data }) {
   return (
     <div className="VaccineContainer">
       <h3>{data.name}</h3>
-      {console.log(data)}
       <div>
         <h4>
           Desenvolvida por
