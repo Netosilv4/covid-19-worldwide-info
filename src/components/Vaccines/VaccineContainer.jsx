@@ -1,10 +1,12 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import '../../styles/vaccineContainer.css';
 
 function VaccineContainer({ data }) {
   return (
     <div className="VaccineContainer">
       <h3>{data.name}</h3>
+      {console.log(data)}
       <div>
         <h4>
           Desenvolvida por
@@ -22,14 +24,9 @@ function VaccineContainer({ data }) {
           {data.researchName}
         </h5>
         <h5>
-          Method:
+          Vaccine Type:
           {' '}
-          {data.method}
-        </h5>
-        <h5>
-          Method:
-          {' '}
-          {data.method}
+          {data.VaccineType}
         </h5>
       </div>
       <a href={data.moreInfo}>Mais Informações</a>

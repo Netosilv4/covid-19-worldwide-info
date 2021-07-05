@@ -1,0 +1,24 @@
+.VaccineContainer {
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.VaccineContainer div, a, h3 {
+  width: 300px;
+}
+
+.VaccineContainer a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  height: 50px;
+  justify-content: center;
+}
