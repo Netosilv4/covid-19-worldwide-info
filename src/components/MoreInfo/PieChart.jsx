@@ -12,7 +12,7 @@ function PieCharts({ chartData, popData }) {
   const getDataChart = () => (
     [
       { name: 'Vacinados', value: chartData.timeline[14].total },
-      { name: 'Total População', value: popData.body.population },
+      { name: 'Total População', value: popData.body.population - chartData.timeline[14].total },
     ]
   );
 
@@ -26,7 +26,7 @@ function PieCharts({ chartData, popData }) {
 
     return (
       <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-        {`${(percent * 100).toFixed(0)}%`}
+        {`${(percent * 100).toFixed(2)}%`}
       </text>
     );
   };
