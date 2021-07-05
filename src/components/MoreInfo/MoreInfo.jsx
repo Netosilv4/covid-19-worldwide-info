@@ -57,7 +57,7 @@ function MoreInfo({ data, fetchVaccines, fetchPop }) {
                 </div>
                 <div>
                   <div className="PieColor2" />
-                  % população total
+                  % necessário para imunizar toda a população
                 </div>
               </div>
             </div>

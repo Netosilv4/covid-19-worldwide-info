@@ -12,7 +12,7 @@ function PieCharts({ chartData, popData }) {
   const getDataChart = () => (
     [
       { name: 'Vacinados', value: chartData.timeline[14].total },
-      { name: 'Total População', value: popData.body.population - chartData.timeline[14].total },
+      { name: 'Total População', value: (popData.body.population * 2) - chartData.timeline[14].total },
     ]
   );
 
