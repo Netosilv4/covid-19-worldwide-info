@@ -67,7 +67,7 @@ function MoreInfo({ data, fetchVaccines, fetchPop }) {
     );
   }
   return (
-    <div>
+    <div className="MoreInfo">
       Loading
     </div>
   );
