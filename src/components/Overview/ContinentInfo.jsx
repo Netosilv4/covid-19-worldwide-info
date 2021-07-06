@@ -7,37 +7,37 @@ function ContinentInfo({ continentData }) {
       <h1>{continentData.continent}</h1>
       <ul>
         <li>
-          Mortes hoje:
+          Deaths yesterday:
           {' '}
           {continentData.todayDeaths}
         </li>
         <li>
-          Total de mortes:
+          Total deaths:
           {' '}
           {continentData.deaths}
         </li>
         <li>
-          Casos totais:
+          Total cases:
           {' '}
           {continentData.cases}
         </li>
         <li>
-          Mortes por milhão de habitante:
+          Deaths per million:
           {' '}
           {continentData.deathsPerOneMillion}
         </li>
         <li>
-          Casos hoje:
+          Today cases:
           {' '}
           {continentData.todayCases}
         </li>
         <li>
-          Total de testes realizados:
+          Total tests:
           {' '}
           {continentData.tests}
         </li>
         <li>
-          Testes por milhão de habitante:
+          Testes per million:
           {' '}
           {continentData.testsPerOneMillion}
         </li>

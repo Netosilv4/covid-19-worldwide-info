@@ -46,7 +46,7 @@ function Main({
           {data.countryName}
         </h1>
         <div className="ChartWrapper">
-          Mortes registradas por COVID-19 nos ultimos 14 dias
+          Deaths recorded by COVID-19 in the last 14 days
           <MainChart chartData={chartData} countryName={countryName} />
           <Tooltips countryName={countryName} />
         </div>

@@ -5,7 +5,7 @@ import VaccineContainer from './VaccineContainer';
 function Vaccines() {
   return (
     <section className="Vaccines">
-      <h1>Informações sobre vacinas</h1>
+      <h1>Vaccine Info</h1>
       {vaccineData.map((e) => <VaccineContainer key={e.name} data={e} />)}
     </section>
 

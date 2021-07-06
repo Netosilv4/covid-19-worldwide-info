@@ -6,13 +6,13 @@ function ToolTips({ countryName }) {
     <div className="ToolTips">
       <div className="BrasilTooltip">
         <div className="ColorBoxGreen" />
-        Mortes no(a)
+        Deaths in
         {' '}
         {countryName}
       </div>
       <div className="WorldTooltip">
         <div className="ColorBoxRed" />
-        Mortes no mundo
+        World Deaths
       </div>
     </div>
   );

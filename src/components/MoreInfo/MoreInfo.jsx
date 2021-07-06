@@ -33,7 +33,7 @@ function MoreInfo({ data, fetchVaccines, fetchPop }) {
         </h1>
         <div className="VaccinesWrapper">
           <div className="VaccinesLeft">
-            Pessoas vacinadas nos últimos 14 dias
+            People vaccinated in the last 14 days
             <Vaccines
               countryName={data.countryName}
               chartData={data.pickedCountryVaccine.timeline}
@@ -41,23 +41,25 @@ function MoreInfo({ data, fetchVaccines, fetchPop }) {
           </div>
           <div className="VaccinesRight">
             <div>
-              <h1>Informações importantes</h1>
-              Vacinações por milhão de habitantes em
+              <h1>
+                Important informations
+              </h1>
+              Vaccinations per million inhabitants in
               {' '}
               {data.pickedCountryVaccine.timeline[13].date}
               :
               {' '}
               {data.pickedCountryVaccine.timeline[13].dailyPerMillion}
-              <h1>Total de doses aplicadas</h1>
+              <h1>Total doses applied</h1>
               <PieCharts popData={data.totalPop} chartData={data.pickedCountryVaccine} />
               <div className="PieToolTip">
                 <div>
                   <div className="PieColor1" />
-                  % doses aplicadas
+                  % doses applied
                 </div>
                 <div>
                   <div className="PieColor2" />
-                  % necessário para imunizar toda a população
+                  % needed to immunize the entire population
                 </div>
               </div>
             </div>

@@ -5,12 +5,12 @@ function AsideInfo({ worldCases, countryName, pickedCountryCases }) {
   return (
     <aside className="MainAsideDiv">
       <div>
-        Casos totais no mundo:
+        World total cases:
         {' '}
         {worldCases[14]}
       </div>
       <div>
-        Casos totais
+        Total cases
         {' '}
         {countryName}
         :

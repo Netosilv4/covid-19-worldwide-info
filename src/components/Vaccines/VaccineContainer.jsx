@@ -23,7 +23,7 @@ function VaccineContainer({ data }) {
           {data.doses}
         </h5>
       </div>
-      <a target="blank" href="https://www.who.int/news-room/q-a-detail/vaccines-and-immunization-what-is-vaccination?adgroupsurvey={adgroupsurvey}&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlIlxW6vNtKXoysZLNQozJ3Mz1432yNHOqLRN4mNYh2FaGOKKbmi2K0aAgj-EALw_wcB">Mais Informações</a>
+      <a target="blank" href="https://www.who.int/news-room/q-a-detail/vaccines-and-immunization-what-is-vaccination?adgroupsurvey={adgroupsurvey}&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlIlxW6vNtKXoysZLNQozJ3Mz1432yNHOqLRN4mNYh2FaGOKKbmi2K0aAgj-EALw_wcB">More info</a>
     </div>
   );
 }

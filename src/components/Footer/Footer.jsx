@@ -5,11 +5,11 @@ function Footer() {
   return (
     <footer className="Footer">
       <div>
-        Desenvolvido por
+        Developed by
         <a className="FooterLink" href="https://www.linkedin.com/in/netosilv4/" target="blank">José Reginaldo Da Silva Neto</a>
       </div>
       <div>
-        Colaboração
+        Collaboration
         {' '}
         <a className="FooterLink" href="https://www.linkedin.com/in/carolinebenichio/" target="blank">Caroline Benichio</a>
       </div>

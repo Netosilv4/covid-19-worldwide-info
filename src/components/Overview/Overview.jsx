@@ -13,7 +13,7 @@ function Overview({ overview, overviewData }) {
   return (
     <section className="Overview">
       <h1 className="OverviewTitle">
-        Panorama Geral
+        Overview
       </h1>
       {overviewData.map((e) => <ContinentInfo key={e.continent} continentData={e} />)}
     </section>
